@@ -11,11 +11,11 @@ const App = () => {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/leaderboard" component={Leaderboard} />
-          <Route path="/login" component={Register} />
-          <Route path="/register" component={LogIn} />
+          <Route path="/hackathon-frontend/leaderboard" component={Leaderboard} />
+          <Route path="/hackathon-frontend/login" component={Register} />
+          <Route path="/hackathon-frontend/register" component={LogIn} />
 
-          <Route path="/" exact component={Home} />
+          <Route path="/hackathon-frontend" exact component={Home} />
         </Switch>
       </Router>
     </>

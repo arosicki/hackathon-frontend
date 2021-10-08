@@ -6,39 +6,21 @@ const BareHowToContribute = ({ className }: HowToContributeProps) => {
       <div id="how-2-contrib" className="content">
         <div className="dl-blurbs">
           <dl>
-            <dt>Design</dt>
-            <dd>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus
-              ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-            </dd>
-            <dt>Develop</dt>
-            <dd>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus
-              ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-            </dd>
-            <dt>Test</dt>
-            <dd>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus
-              ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-            </dd>
+            <dt>Download geth client </dt>
+            <dd>From official website and install it.</dd>
+            <dt>Create Folder</dt>
+            <dd>Anywhere with any name</dd>
+            <dt>Paste in the following files</dt>
+            <dd>link 1 link 2</dd>
           </dl>
           <dl>
-            <dt>Deliver</dt>
-            <dd>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus
-              ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-            </dd>
-            <dt>Rinse</dt>
-            <dd>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus
-              ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-            </dd>
+            <dt>Paste cryptoaddress</dt>
+            <dd>Recieved while creating an account (mined crypto will be assgined to it) and number of threads</dd>
+            <dt>Run Client</dt>
+            <dd>And wait for it to synchronize and start mining</dd>
 
-            <dt>Repeat</dt>
-            <dd>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus
-              ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-            </dd>
+            <dt>Close the console window</dt>
+            <dd>In order to stop mining</dd>
           </dl>
         </div>
         <a href="#how-does-it-work">
@@ -97,7 +79,7 @@ const HowToContribute = styled(BareHowToContribute)`
       color: #4f6d7aff;
       font-weight: bold;
       font-family: "Montserrat", sans-serif;
-      font-size: 4vw;
+      font-size: 4vh;
       text-transform: uppercase;
       height: 5vh;
     }
@@ -122,7 +104,7 @@ const HowToContribute = styled(BareHowToContribute)`
         gap: 2vw;
       }
       dt {
-        height: 7.5vh;
+        height: 10vh;
       }
       dd {
         line-height: 3vh;
@@ -142,6 +124,10 @@ const HowToContribute = styled(BareHowToContribute)`
   @media screen and (max-width: 960px) {
     .material-icons-outlined {
       top: 120px;
+    }
+    dt {
+      height: 10vh;
+      font-size: 1.5vh;
     }
   }
 `;
