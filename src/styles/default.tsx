@@ -1,0 +1,10 @@
+const defaultStyle = {
+  NAVBAR_COLOR: "#2B2E4A",
+  NAVBAR_HOVER: "rgba(255, 255, 255, 0.25)",
+  NAVBAR_SELECTED_LINK_COLOR: "#00ADB5",
+  HOME_FIRST_COLOR: "#DBE2EF",
+  HOME_SECOND_COLOR: "#EEEEEE",
+  HOME_THIRD_COLOR: "#00ADB5",
+};
+
+export default defaultStyle;
